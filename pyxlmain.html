@@ -13,9 +13,10 @@ body, html {
     line-height: 1.8;
 }
 /* Full height image header */
-.bgimg-1 {
+.bgimg1 {
     background-position: center;
     background-size: cover;
+    background-image: url("pyxlbanner.png");
     min-height: 100%;
 }
 .w3-bar .w3-button {
@@ -64,9 +65,13 @@ body, html {
 </nav>
 
 <!-- Header with full-height image -->
-    <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="pyxlbanner" alt="banner" width="700" height="394">
-    </div>
+<header class="bgimg1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+</header>
 
 <!-- About Section -->
 <div class="w3-container" style="padding:128px 16px" id="about">
